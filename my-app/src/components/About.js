@@ -24,8 +24,6 @@ export default function About() {
             
         }
     }
-
-
   return (
     <div className="container" style={mystyle}>
       <h2 className="my-3">About us</h2>
