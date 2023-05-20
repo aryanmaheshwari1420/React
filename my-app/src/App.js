@@ -9,11 +9,10 @@ import {
   BrowserRouter as Router,
   Routes,
   Route,
-  Link,
 } from "react-router-dom";
 
 function App() {
-  const [mode, setMode] = useState("light"); // Whether dark mode is enabled or not
+  const [mode, setMode]   = useState("light"); // Whether dark mode is enabled or not
   const [alert, setAlert] = useState(null);
 
   const showAlert = (message, type) => {
@@ -47,7 +46,7 @@ function App() {
       <div className="container my-3">
         <Routes>   
           <Route exact path="/about" element={<About />} />
-          <Route exact    path="/" element={<TextForm heading="Enter the text to analyze below" onShowAlert={showAlert}/>} />
+          <Route exact path="/" element={<TextForm heading="Enter the text to analyze below" showAlert={showAlert}/>} />
         </Routes>
       </div>
    </Router>
