@@ -10,7 +10,9 @@
 
 6. <> jsx fragment </> 
 
-7.  custom components all will be in capital .
+7.  custom components all will be in capital.
+
+8. 
 
 
 
