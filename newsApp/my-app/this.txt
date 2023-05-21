@@ -1,0 +1,5 @@
+render is a life cycle method 
+jab react ek component ko load krti hai jo kuch series of methods run hote hai 
+
+aap bas ye smjh lo render method screen par html ko render krne ke liye help krti hain
+sabse pehle jsx ko html me compile krna phr html ko load karna
