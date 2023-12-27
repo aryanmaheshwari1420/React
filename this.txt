@@ -1,0 +1,18 @@
+1. hello today is 14 may 2023 i am starting react today
+
+2. app.js =  ye file vo file hai jo dikhaegi ki ky open hoga npm start krne ke baad
+
+3. pehle class based components used kiye jaate thy ab function based use kiye jaate hai #popular trend
+
+4. JSX stands for JavaScript XML JSX allows us to write HTML in React. JSX makes it easier to write and add HTML in React.
+
+5. we can return only one tag
+
+6. <> jsx fragment </> 
+
+7.  custom components all will be in capital.
+
+8. 
+
+
+
