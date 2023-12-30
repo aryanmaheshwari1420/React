@@ -4,11 +4,6 @@ import TextForm from "./components/TextForm";
 import React, { useState } from "react";
 import Alert from "./components/Alert";
 
-import {
-  BrowserRouter as Router,
-  Routes,
-  Route,
-} from "react-router-dom";
 
 function App() {
   const [mode, setMode]   = useState("light"); // Whether dark mode is enabled or not
@@ -40,17 +35,14 @@ function App() {
     }
   };
 
-  return (<>
-    <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode}/>
-    <Router>
+  return (
+    <>
+      <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode}/>
       <Alert alert = {alert}/>  
       <div className="container my-3">
-        <Routes>   
-          <Route exact path="/" element={<TextForm heading="Enter the text to analyze below"  showAlert={showAlert}/>} />
-        </Routes>
+          <TextForm heading="Enter the text to analyze below"  showAlert={showAlert}/> 
       </div>
-   </Router>
-   </>
+      </>
   );
 }
 
