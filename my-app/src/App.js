@@ -40,9 +40,9 @@ function App() {
     }
   };
 
-  return (
+  return (<>
+    <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode}/>
     <Router>
-      <Navbar title="TextUtils" mode={mode} toggleMode={toggleMode}/>
       <Alert alert = {alert}/>  
       <div className="container my-3">
         <Routes>   
@@ -50,6 +50,7 @@ function App() {
         </Routes>
       </div>
    </Router>
+   </>
   );
 }
 
